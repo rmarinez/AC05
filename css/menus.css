@@ -1,0 +1,79 @@
+/* Rubén Martinez Bernabe */
+
+*, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+.clearfix:before, .clearfix:after { display: table; content: ''; }
+.clearfix:after { clear: both; }
+
+
+/* HEADER */
+header{
+    flex-basis: 90%;
+    height:120px;
+    background-color: #2f3238;
+    text-align: center;
+    border-radius: 5px;
+    margin: 2px;
+    padding: 5px;
+    color:black;
+    font-size:2em;
+    transition: all 0.3s ease;  /* pequeña transicion*/   
+}
+
+/* HEADER */
+body {
+	background: #000000;
+	color: #fff;
+	font-weight: 400;
+	font-size: 1em;
+	font-family: 'Raleway', Arial, sans-serif;
+}
+
+/* ID DE <P> DE LA PRIEMRA IMAGEN */
+#p{
+  font-size: 14px;  
+}
+
+/* ID GIF DEL GIF DE LA SEGUNDA IMAGEN*/
+#gif{
+    margin: 5px;
+}
+
+
+ /* NAVEGADOR DEBAJO DEL HEADER*/
+#nav{
+    overflow: auto;
+    height: 60px;
+    line-height: 60px;
+    width: 100%;
+    background-color: black;
+    transition: all 1s ease;  /* pequeña transicion*/
+}
+
+#nav a{
+    color: white;
+    background-color: black;
+    display: inline-block;
+    padding: 10px 15px;
+    line-height: 1;
+    text-decoration: none;
+    transition: all 1s ease;  /* pequeña transicion*/
+    
+}
+
+#nav a:hover{
+    
+    color: gray;
+    background-color: #2f3238;
+    transition: all 0.1s ease;  /* pequeña transicion*/
+}
+
+
+
+
+
+
+
+
+
+
+  
